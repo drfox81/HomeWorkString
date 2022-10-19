@@ -23,7 +23,7 @@ public class Main {
 
     private static void task2() {
         String nameUp = task1().toUpperCase();
-        System.out.println(nameUp);
+        System.out.println("Данные ФИО сотрудника для заполнения отчета — " + nameUp);
     }
 
     public static String task1() {
